@@ -39,4 +39,4 @@ jobs:
 
       - name: Copy build folder to EC2
         run: |
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no -i ssh-key.pem" dist/ ubuntu@13.203.199.210:/var/www/html
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no -i ssh-key.pem" dist/ ubuntu@3.110.104.203:/var/www/html
